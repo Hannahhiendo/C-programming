@@ -12,7 +12,7 @@ cin >> celsius;
 int fahrenheit = (9.0/5) * celsius + 32;
 
 
-cout << " The Fahrenheit Degree is " << fahrenheit << '\n'
+cout << " The Fahrenheit Degree is " << fahrenheit << '\n';
 
 
 
