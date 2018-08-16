@@ -13,8 +13,8 @@ int main ()
     cin >> x2;
     cin >> y2;
 
-    double c = sqrt( pow(x1 - x2 , 2) + pow(y1 - y2 , 2));
-    cout << c << '\n';
+    long double c = sqrt( pow(x1 - x2 , 2) + pow(y1 - y2 , 2));
+    cout << "The distance of the two points is " << c << '\n';
     return 0;
 
 }
