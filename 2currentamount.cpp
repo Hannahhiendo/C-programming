@@ -16,5 +16,7 @@ int main()
 
    cout << currentAmount << '\n';
 
+   return 0;
+
     
 }
