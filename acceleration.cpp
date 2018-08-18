@@ -12,17 +12,10 @@ cout << "Enter ending velocity: ";
 cout << "Enter Time Span: ";
     double timeSpan;
     cin >> timeSpan;
-
-
 double averageAcceleration = (endingVelocity - startingVelocity) / timeSpan;
 
-cout << "The Average Acceleration is " << averageAcceleration << '\n';
+ cout << "The Average Acceleration is " << averageAcceleration << '\n';
 
 return 0;
-
-
-
-
-
 
 }
