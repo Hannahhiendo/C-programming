@@ -11,4 +11,6 @@ bool even = number % 2 == 0;
 
 cout << even << '\n' ;
 
+return 0;
+
 }
