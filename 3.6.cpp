@@ -10,7 +10,9 @@ int main ()
     if ( x > 2)
     {
          if( y > 2)
+         {
          cout << "z is "<< z << '\n';
+         }
 
 
           else{
