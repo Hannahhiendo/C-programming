@@ -16,4 +16,5 @@ int main (){
         cout << number << " is divisible by 2 or 3, but not both" << '\n';
     }
 
+return 0;
 }
