@@ -33,8 +33,8 @@ int main (){
     else {
         cout << "no match, thanks for playing" << '\n';
     }
-
-    cout << lottery<< '\n';
-
+ 
+ 
+ 
     return 0;
 }
