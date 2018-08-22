@@ -7,3 +7,5 @@ cout << RAND_MAX << '\n';
 
 return 0;
 }
+
+
