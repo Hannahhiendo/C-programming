@@ -10,5 +10,5 @@ int main ()
     int currentHour = totalHours % 60;
     cout << currentHour << '\n';
 
-
+return 0;
 }
