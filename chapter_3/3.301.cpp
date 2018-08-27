@@ -25,5 +25,6 @@ int main(){
         cout << "The equation has no real roots" << '\n';
     }
 
-    return 0;
+
+return 0;
 }
