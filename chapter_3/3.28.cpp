@@ -14,7 +14,5 @@ int main(){
     cout << setw(8) << monthlyPayment << '\n';
     cout << setw(8) << totalPayment << '\n';
 
-
-
 return 0;
 }
