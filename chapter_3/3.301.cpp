@@ -10,14 +10,14 @@ int main(){
     cin >> b;
     cin >> c;
 
-    double r1 = (-b) + sqrt(pow(b, 2) - 4 * (a * c)) / (2 * a);
-    double r2 = (-b) - sqrt(pow(b, 2) - 4 * (a * c)) / (2 * a);
+    double r1 = ((-b) + (sqrt(pow(b, 2) - 4 * (a * c)))) / (2 * a);
+    double r2 = ((-b) - (sqrt(pow(b, 2) - 4 * (a * c)))) / (2 * a);
 
-    if (sqrt(pow(b, 2) - 4 * (a * c)) > 0){
+    if ((pow(b, 2) - 4 * (a * c)) > 0){
         cout << "The roots are " << r1 << " and " << r2 << '\n';
     }
     
-    else if (sqrt(pow(b, 2) - 4 * (a * c)) == 0){
+    else if ((pow(b, 2) - 4 * (a * c)) == 0){
         cout << "The root is " << r1 << '\n';
     }
 
