@@ -8,14 +8,10 @@ int main ()
 
 
 srand(time(0));
-int number1 = rand() % 10;
-int number2 = rand() % 10;
+int number1 = rand() % 100;
+int number2 = rand() % 100;
 
-if (number1 < number2) {
-    int peanut = number1;
-    number1 = number2;
-    number2 = peanut;
-}
+
 
 cout << "what is " << number1 << " + " << number2 << "? ";
 int answer;
@@ -31,3 +27,4 @@ else {
 return 0;
 
 }
+
