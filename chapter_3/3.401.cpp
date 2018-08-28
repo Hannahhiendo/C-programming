@@ -36,28 +36,28 @@ else {
     cout << amountOfDollars << " Dollars" << '\n';
 }
 
-if (amountOfQuarters == 1 ){
+if (amountOfQuarters <= 1 ){
     cout << amountOfQuarters << " Quarter"<< '\n';
 }
 else {
     cout << amountOfQuarters << " Quarters" << '\n';
 }
 
-if (amountOfDimes == 1 ){
+if (amountOfDimes <= 1 ){
     cout << amountOfDimes << " Dime"<< '\n';
 }
 else {
     cout << amountOfDimes << " Dimes" << '\n';
 }
 
-if (amountOfNickels == 1 ){
+if (amountOfNickels <= 1 ){
     cout << amountOfNickels << " Nickel"<< '\n';
 }
 else {
     cout << amountOfNickels << " Nickels" << '\n';
 }
 
-if (amountOfPennies == 1 ){
+if (amountOfPennies <= 1 ){
     cout << amountOfPennies << " Penny"<< '\n';
 }
 else {
