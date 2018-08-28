@@ -29,6 +29,7 @@ int main(){
 
     cout << num1 << " " << num2 << " " <<  num3 << '\n';
 
-    return 0;
+
+return 0;
 
 }
