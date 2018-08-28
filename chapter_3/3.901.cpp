@@ -5,6 +5,8 @@ using namespace std;
 
 int main ()
 {
+
+
 srand(time(0));
 int number1 = rand() % 10;
 int number2 = rand() % 10;
