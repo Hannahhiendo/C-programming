@@ -35,7 +35,5 @@ int main (){
         cout << "no match, thanks for playing" << '\n';
     }
  
- 
- 
-    return 0;
+return 0;
 }
