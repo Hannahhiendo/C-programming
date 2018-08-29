@@ -27,30 +27,3 @@ cout << "The wind - chill Index is " << windChillIndex << '\n';
 
 return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
