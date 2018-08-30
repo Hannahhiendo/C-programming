@@ -17,7 +17,6 @@ if(coinSide == guess ){
 else {
     cout << "Your guess is incorrect" << '\n';
 }
-
 return 0;
 
 }
