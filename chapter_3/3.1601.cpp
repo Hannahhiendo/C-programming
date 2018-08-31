@@ -16,5 +16,5 @@ if(edge1 + edge2 > edge3 || edge1 + edge3 > edge2 || edge2 + edge1 > edge3 || ed
 else{
     cout << "Input is Invalid" << '\n';
 }
-
+return 0;
 }
