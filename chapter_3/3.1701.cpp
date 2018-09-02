@@ -14,7 +14,6 @@ TEST(DigitTest, PositiveNos) {
 
 }
 
-
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
@@ -32,5 +31,4 @@ string get10thDigit(int d1, int d2, int d3, int d4, int d5 ,int d6, int d7, int 
     }
 
     return std::to_string(d10);
-    
 }
