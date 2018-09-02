@@ -12,17 +12,13 @@ TEST(DaysTest, PositiveNos) {
     EXPECT_EQ (30, getDays(2018, 6));
     EXPECT_EQ (28, getDays(2018, 2));
     EXPECT_EQ (31, getDays(1981, 5));
-    
+
   
 }
-
-
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
-
 }
-
 
 int getDays(int year, int month){
 
