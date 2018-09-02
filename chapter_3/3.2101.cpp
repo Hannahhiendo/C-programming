@@ -42,7 +42,7 @@ string getSuit(int card) {
 std::string getRank (int card) {
     
     
-    int rank = card % 13 + 1;
+    int rank = card % 13;
 
     switch(rank){
         case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:  
@@ -58,7 +58,7 @@ std::string getRank (int card) {
         case 12:
             return "Queen" ;
             break ;
-        case 13:
+        case 0:
             return "King" ;
             break;
     }
