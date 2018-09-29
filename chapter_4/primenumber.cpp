@@ -1,31 +1,44 @@
 #include <iostream>
-#include "gtest/gtest.h"
+#include <iomanip>
 using namespace std;
 
+int main() {
+    const int numbersPrime = 50;
+    const int numbersPerLine = 10;
+    int count = 0;
+    int number = 2;
+    cout << "the first 50 prime numbers are" << '\n';
 
-bool isPrime (int n);
+while(count < numbersPrime){
 
-TEST(Test, keyTwo) { 
-    EXPECT_EQ (true, isPrime(5));
-    EXPECT_EQ (false, isPrime(25));
-}
+    bool isPrime = true;
 
-
-int main(int argc, char **argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-
-
-return 0;
-} 
-
-bool isPrime (int n){ 
-    for ( int divisor = 2; divisor <= n/2 ; divisor ++){
-        if (n % divisor == 0){
-            cout << divisor << '\n';
-            return false;
+    for(int divisor = 2; divisor <= number / 2; divisor ++){
+        if(number % divisor == 0){
+            isPrime = false;
+            break;
         }
     }
-    return true;
+
+    if(isPrime){
+        count ++;
+        if(count % numbersPrime == 0){
+        cout << setw(4) << number << '\n';
+        }
+        else{
+        cout << setw(4) << number << '\t';
+        }
+    }
+    number ++;
 }
+return 0; 
+}
+
+
+
+
+
+
+
+
 
