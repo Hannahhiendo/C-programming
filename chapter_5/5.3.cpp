@@ -1,18 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-      
-    void reverse(int n);
-    int n;
-    cout << "Enter an integer: ";
-    cin >> n;
-    
-    cout << "Reversed Number = " ;
-    reverse(n);
- return 0;
-}
+
 
 void reverse(int n){
  
@@ -27,4 +16,15 @@ void reverse(int n){
     }
     cout << reversedNumber << '\n';
     
+}
+
+int main()
+{
+    int n;
+    cout << "Enter an integer: ";
+    cin >> n;
+    
+    cout << "Reversed Number = " ;
+    reverse(n);
+ return 0;
 }
