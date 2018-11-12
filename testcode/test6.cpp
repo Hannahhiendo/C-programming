@@ -26,7 +26,7 @@ void printPrimeNumbers(int numberOfPrimes){
                 cout << setw(4) << number << '\n';
             }
             else 
-                cout << setw(4) << number << '\n';
+                cout << setw(4) << number << " ";
         }
     number++;
 
