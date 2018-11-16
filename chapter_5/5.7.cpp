@@ -3,12 +3,19 @@ using namespace std;
 
 int main(){
 
-    float fahrenheit, celsius;
- 
+    double celsius;
+    double celsiusToFahrenheit(double celsius);
     cout << "Enter the temperature in Celsius : ";
     cin >> celsius;
-    fahrenheit = (celsius * 9.0) / 5.0 + 32;
-    cout << "The temperature in Celsius    : " << celsius << endl;
-    cout << "The temperature in Fahrenheit : " << fahrenheit << endl;
+    
+    
+    cout << "The temperature in Fahrenheit : " <<  celsiusToFahrenheit(celsius)<< endl;
     return 0;
+}
+
+
+double celsiusToFahrenheit(double celsius){
+    double fahrenheit;
+    fahrenheit = (celsius * 9.0) / 5.0 + 32;
+    return fahrenheit;
 }
