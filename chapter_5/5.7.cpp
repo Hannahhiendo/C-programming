@@ -1,21 +1,39 @@
 #include <iostream>
 using namespace std;
 
-int main(){
 
-    double celsius;
+    double fahrenheitToCelsius(double fahrenheit);
     double celsiusToFahrenheit(double celsius);
-    cout << "Enter the temperature in Celsius : ";
-    cin >> celsius;
+int main(){
     
+      double celsius = 40;  
+      double fahrenheit = 120;
+
+cout<< "celsius"  <<'\t'<<'\t'<< "fahrenheit"  << '\n';
+
+for(int n = 1; n <= 10; n++){
+    cout << celsius << "\t";
+    cout << celsiusToFahrenheit(celsius)<< "\t"; 
+
+    cout << fahrenheit << "\t";
+    cout << fahrenheitToCelsius(fahrenheit) << "\n";  
+    celsius = celsius - 1;
+    fahrenheit = fahrenheit - 10;
     
-    cout << "The temperature in Fahrenheit : " <<  celsiusToFahrenheit(celsius)<< endl;
+    }
     return 0;
+
 }
 
+double fahrenheitToCelsius(double fahrenheit){
+    double
+    celsius = (5.0 / 9.0) * (fahrenheit - 32.0);
+    return celsius;
+
+}
 
 double celsiusToFahrenheit(double celsius){
-    double fahrenheit;
+    double
     fahrenheit = (celsius * 9.0) / 5.0 + 32;
     return fahrenheit;
 }
