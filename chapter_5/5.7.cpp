@@ -9,14 +9,14 @@ int main(){
       double celsius = 40;  
       double fahrenheit = 120;
 
-cout<< "celsius"  <<'\t'<<'\t'<< "fahrenheit"  << '\n';
+cout<< "celsius" <<'\t'<< "fahrenheit"  << "    " << "fahrenheit" <<'\t'<< "celsius"<< '\n';
 
 for(int n = 1; n <= 10; n++){
     cout << celsius << "\t";
-    cout << celsiusToFahrenheit(celsius)<< "\t"; 
+    cout << celsiusToFahrenheit(celsius)<< "\t" << '\t'; 
 
     cout << fahrenheit << "\t";
-    cout << fahrenheitToCelsius(fahrenheit) << "\n";  
+    cout << '\t' << fahrenheitToCelsius(fahrenheit) << "\n";  
     celsius = celsius - 1;
     fahrenheit = fahrenheit - 10;
     
