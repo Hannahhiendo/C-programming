@@ -1,20 +1,22 @@
 #include <iostream>
 using namespace std;
 
-//double computerComission(double salesAmount){
+double computerComission(double salesAmount){
     
+    if(salesAmount<=0) {
+        return 0;
+    }
 
-//int subtractionVariable = 9100;
-//double comission = salesAmount - subtractionVariable;
-///return comission;
+    if(salesAmount <= 5000){ 
+        return salesAmount * 0.08;
+    }
 
+    if(salesAmount <= 10000){
+        return salesAmount * .1;
+    }
 
-    
-
-
-
-  
-//}
+    return salesAmount * .12;
+}
 
 int main(){
 double salesAmount = 10000;
@@ -23,11 +25,10 @@ double comission = 900;
 cout << "Sales Amount" << '\t' << "Comission" << '\n'; 
 for(int n = 1; n <= 20; n++){
 
-cout << salesAmount << '\t' << comission << '\n';
+
+cout << salesAmount << '\t' << '\t' << computerComission(salesAmount) << '\n';
 
 salesAmount = salesAmount + 5000;
-comission = comission + 600;
-//int subtractionVariable = subtractionVariable + 4400;
 }
 
 }
