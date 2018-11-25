@@ -9,7 +9,7 @@ int main(){
       double celsius = 40;  
       double fahrenheit = 120;
 
-cout<< "celsius" <<'\t'<< "fahrenheit"  << "    " << "fahrenheit" <<'\t'<< "celsius"<< '\n';
+cout<< "celsius" <<'\t'<< "fahrenheit"  << '\t' << "fahrenheit" <<'\t'<< "celsius"<< '\n';
 
 for(int n = 1; n <= 10; n++){
     cout << celsius << "\t";
