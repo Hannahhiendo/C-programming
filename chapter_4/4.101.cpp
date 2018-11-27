@@ -5,7 +5,7 @@ int main(){
     cout << "Enter an int value (the program exits if the input is 0)" << '\n';
     int input;
     cin >> input;
-    
+      
 int positives = 0;
 int negatives = 0;
 int countOfIntegers = 0;
@@ -35,5 +35,8 @@ cout << "the total is " << total << '\n' << "the average is " << average << '\n'
 
 cout << "there are " << positives << " postitives "<< '\n';
 cout << "there are "<< negatives << " negatives "<< '\n';
+
+
+return 0;
      
 }
