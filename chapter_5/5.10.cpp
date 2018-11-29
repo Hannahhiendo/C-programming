@@ -31,4 +31,5 @@ cout << salesAmount << '\t' << '\t' << computerComission(salesAmount) << '\n';
 salesAmount = salesAmount + 5000;
 }
 
+return 0;
 }
