@@ -20,7 +20,7 @@ int main()
     cout << "The area is " << area << '\n';
 
 
-
+return 0;
 
 
 }
