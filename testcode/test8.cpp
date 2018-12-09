@@ -8,4 +8,6 @@ int main(){
     int celsius;
     celsius = (5.0 / 9.0) * (fahrenheit - 32.0);
     cout << celsius;
+
+    return 0;
 }
