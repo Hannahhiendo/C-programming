@@ -9,4 +9,5 @@ int i = f;
 cout << "f is" << f << '\n';
 cout << "i is" << i << '\n';
 
+return 0;
 }
