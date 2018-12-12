@@ -16,4 +16,6 @@ int main()
 
     cout << "The gratuity is : $" << gratuity<< '\n';
     cout << "The total amount is: $" << total << '\n'; 
+
+    return 0;
 }
