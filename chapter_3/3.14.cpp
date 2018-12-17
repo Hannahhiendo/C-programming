@@ -6,4 +6,5 @@ int main (){
    bool ex = !( x > 0) && ( x > 0);
    cout << ex << '\n';
     
+   return 0;
 }
