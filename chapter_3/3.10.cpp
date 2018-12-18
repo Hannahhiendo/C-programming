@@ -23,12 +23,7 @@ cin >> score;
         
     cout << grade << '\n';
 
-    
-
-
-       
-    
-    
 return 0;
 
 }
+
