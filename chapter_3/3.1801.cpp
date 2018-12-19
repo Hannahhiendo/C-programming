@@ -22,6 +22,7 @@ int main(int argc, char **argv) {
   return 0;
 }
 
+
 int getDays(int year, int month){
 
    if (year % 4 == 0 && month == 2){
