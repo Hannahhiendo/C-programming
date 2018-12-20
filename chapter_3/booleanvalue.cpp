@@ -10,9 +10,7 @@ int main ()
     cout << x << '\n';
 
     cout << (4 > 5) << '\n';
-
-
-
+    
     return 0;
 
 
