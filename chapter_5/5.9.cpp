@@ -38,6 +38,5 @@ int main()
     cout << "Here are all the prime numbers up to 10000 \n";
     printPrimeNumbers(1229);
     cout << '\n';
-
     return 0;
 }
