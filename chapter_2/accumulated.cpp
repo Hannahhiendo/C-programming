@@ -23,10 +23,6 @@ int main()
 
     cout << "The Accumulated Value is $"<< accumulatedValue << '\n'; 
 
-    
-
- 
     return 0;
-
 
 }
