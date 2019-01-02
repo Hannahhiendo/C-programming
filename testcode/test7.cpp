@@ -14,5 +14,7 @@ int main()
     }
     ifstream in("table.txt");
     out.close();
+    
+    
     return 0;
 }
