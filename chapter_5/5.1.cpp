@@ -12,8 +12,6 @@ return 0;
 
 }
 
-
-
 int getPentagonNumber(int n){
     
         
