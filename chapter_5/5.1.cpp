@@ -13,7 +13,6 @@ return 0;
 }
 
 int getPentagonNumber(int n){
-    
         
         int getPentagonNumber = 0;
         getPentagonNumber = n*(3 * n-1)/2;
