@@ -18,7 +18,6 @@ while(k <= n1 && k <= n2){
         gcd = k;
     k++;
 }
-
 cout << "The greatest common divisor for " << n1 << " and " << n2 << " is " << gcd << '\n';
 
 return 0;
