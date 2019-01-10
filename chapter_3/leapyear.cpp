@@ -16,7 +16,5 @@ if (isLeapYear){
 else {
     cout << year << " is not a leap year\n";
 }
-
-
 return 0;
 }
