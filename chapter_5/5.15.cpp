@@ -20,6 +20,7 @@ int main(){
     }
 }
 
+
 int numberOfDaysInAYear(int year){
      return 356;
  
