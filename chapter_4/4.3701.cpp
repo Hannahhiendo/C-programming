@@ -17,8 +17,6 @@ double caculateComission(double salesAmount){
     }
 
 }
-
-
 int main(){
 double salesAmount = 10000;
 cout << caculateComission(salesAmount) << '\n';
