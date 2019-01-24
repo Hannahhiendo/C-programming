@@ -32,7 +32,6 @@ void printPrimeNumbers(int numberOfPrimes){
 
     }
 }
-
 int main()
 {
     cout << "The first 50 prime numbers are \n";
