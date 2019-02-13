@@ -45,5 +45,4 @@ cout << "Enter Y to continue and N to quit" << '\n';
 cin >> continueLoop;
 }
 return 0;
-
 }
