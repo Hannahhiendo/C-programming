@@ -14,10 +14,6 @@ int main ()
         cout << number <<" is odd";
     }
    
-   
-
-
-
-    return 0;
+   return 0;
 
 }
